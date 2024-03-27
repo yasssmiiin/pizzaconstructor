@@ -76,13 +76,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const contentWindowBlock = document.querySelector('.content-window');
         createBlock (contentWindowBlock, div.cloneNode(), ["window-ready", flexBaseClass]);
         const contentReadyBlock = document.querySelector('.window-ready');
-        createBlock (contentReadyBlock, img.cloneNode(), ["cutlery"], "/img/cutlery-left.svg" );
+        createBlock (contentReadyBlock, img.cloneNode(), ["cutlery"], "img/cutlery-left.svg" );
         createBlock (contentReadyBlock, div.cloneNode(), ["window-ready__wrapper", "plate", flexBaseClass]);
         const contentReadyBlockWrapper = document.querySelector('.window-ready__wrapper');
         createBlock (contentReadyBlockWrapper, div.cloneNode(), ["plate-circle", flexBaseClass]);
         const plateCircleContainer = document.querySelector('.plate-circle');
         createBlock (plateCircleContainer, h1.cloneNode(), null, null , 'ГОТОВЫ?');
-        createBlock (contentReadyBlock, img.cloneNode(), ["cutlery"], "/img/cutlery-right.svg" );
+        createBlock (contentReadyBlock, img.cloneNode(), ["cutlery"], "img/cutlery-right.svg" );
         createBlock (contentWindowBlock, div.cloneNode(), ["window-ready__buttons", flexBaseClass]);
         const windowReadyButtons = document.querySelector('.window-ready__buttons');
         createBlock (windowReadyButtons, span.cloneNode(), ["button"], null, 'ДА');
