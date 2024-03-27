@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             clearContent();
             createBlock(contentWrapper, h1.cloneNode(), null, null, 'Курьер выехал!');
-            createBlock (contentWrapper, img.cloneNode(), ["finish-image"], ("/img/order-" +  figure + ".svg") );
+            createBlock (contentWrapper, img.cloneNode(), ["finish-image"], ("img/order-" +  figure + ".svg") );
             createBlock(contentWrapper, span.cloneNode(), ["thanks"], null, 'Спасибо за заказ');
             let image = document.querySelector('img.finish-image'); // Теперь выбираем одно изображение
             updateImageSrc(image); 
@@ -305,7 +305,7 @@ function ensureThreeImagesInWrappers() {
 function updateImageSrc(image) {
     const screenWidth = window.innerWidth;
     console.log(screenWidth);
-    if (image) { // Проверяем, найден ли элемент
+    if (image) { 
         let src = image.getAttribute('src');
         if (screenWidth < 400) {
             if (!src.includes('-m.')) {
