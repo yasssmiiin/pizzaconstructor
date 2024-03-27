@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'PP Neue Machina';
+    font-family: "PP Neue Machina";
     src: url('fonts/NeueMachina-Ultrabold.otf') format('opentype');
 }
 
 body {
-    font-family: "PP Neue Machina", sans-serif; 
+    font-family: "PP Neue Machina"; 
 }
 
 
@@ -16,7 +16,7 @@ body{
     font-size: 2.5vw;
         height: 100%;
         color: #000;
-        font-family: "PP Neue Machina";
+        font-family: PP Neue Machina;
         font-weight: 800;
 }
 div {
