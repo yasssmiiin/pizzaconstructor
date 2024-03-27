@@ -334,4 +334,7 @@ section{
     .thanks{
         bottom: 25%;
     }
+    .content-wrapper {
+        max-height: 100dvh;
+    }
 }
