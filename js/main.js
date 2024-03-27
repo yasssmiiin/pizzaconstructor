@@ -15,15 +15,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const figureList = {
         circle : {
             figure: 'circle',
-            url : '/img/circle.svg',
+            url : 'img/circle.svg',
             class : '.form-circle'
         },
         rectangle : {
-            url : '/img/rectangle.svg',
+            url : 'img/rectangle.svg',
             class : '.form-rectangle'
         },
         triangle : {
-            url : '/img/triangle.svg',
+            url : 'img/triangle.svg',
             class : '.form-triangle'
         }
     }
@@ -32,42 +32,42 @@ document.addEventListener('DOMContentLoaded', function() {
         tomato : {
             side: 'left',
             name: 'tomato',
-            path : '/img/tomato.svg'
+            path : 'img/tomato.svg'
         },
         grinlist : {
             side: 'left',
             name: 'grin-list',
-            path : '/img/grin-list.svg'
+            path : 'img/grin-list.svg'
         },
         olive : {
             side: 'left',
             name: 'olive',
-            path : '/img/olive.svg'
+            path : 'img/olive.svg'
         },
         mushrooms : {
             side: 'left',
             name: 'mushrooms',
-            path : '/img/mushrooms.svg'
+            path : 'img/mushrooms.svg'
         },
         pepper : {
             side: 'right',
             name: 'pepper',
-            path : '/img/pepper.svg'
+            path : 'img/pepper.svg'
         },
         chees : {
             side: 'right',
             name: 'chees',
-            path : '/img/chees.svg'
+            path : 'img/chees.svg'
         },
         onion : {
             side: 'right',
             name: 'onion',
-            path : '/img/onion.svg'
+            path : 'img/onion.svg'
         },
         maslines : {
             side: 'right',
             name: 'maslines',
-            path : '/img/maslines.svg'
+            path : 'img/maslines.svg'
         }
     }
 
