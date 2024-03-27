@@ -295,8 +295,8 @@ section{
 @media screen and ( max-width: 498px) {
     .figure-wrapper.bg-rectangle, .figure-wrapper.bg-triangle, .figure-wrapper.bg-circle{
        max-height: 18vh;
-    margin-bottom: 30vh;
-    margin-top: 30vh;
+    margin-bottom: 25vh;
+    margin-top: 25vh;
         height: inherit;
 }}
 .svg-line {
